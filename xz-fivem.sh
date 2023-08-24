@@ -21,22 +21,25 @@ read -r n
 case $n in
   1) 
     sleep 1
+      echo ""
 
     echo "$(tput setaf 3)Starting FiveM Please wait"
 
     sleep 4
 
-    sh start.sh
+    sh run.sh
   ;;
 
   2) 
     sleep 1
-
-    echo "$(tput setaf 3)Starting the download "
+    echo ""
+    echo "$(tput setaf 3)Starting FiveM Installation"
+    
 
     sleep 4
 
     sh install.sh
+   
 
   ;;
 esac
