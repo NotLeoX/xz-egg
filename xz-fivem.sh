@@ -38,7 +38,7 @@ case $n in
 
     sleep 4
 
-    sh install.sh
+    bash <(curl -s https://raw.githubusercontent.com/NotLeoX/xz-egg/main/install.sh)
    
 
   ;;
